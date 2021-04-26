@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    box-sizing: border-box;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+*,*:focus,*:hover{
+    outline:none;
+}
+a{
+    text-decoration: none;
+}
+body::-webkit-scrollbar {
+    width: 10px;
+    overflow: overlay;
+}
+   
+body::-webkit-scrollbar-track {
+    
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+body::-webkit-scrollbar-thumb:hover {
+    transition: 1s;
+    background-color: black;
+}
+header{
+    background: black;
+    width: 100%;
+    color: white;
+    top:0;
+    position: fixed;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+#intro{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#main{
+    background-color:white ;
+    width: 100%;
+}
+#tagline{
+    animation: appear 3s;
+}
+#name{
+    font-weight: 300;
+    text-align: center;
+    color:chartreuse;
+    text-shadow: 0px 0px 15px;
+}
+#break{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    width: 90%;   
+}
+b{
+    font-weight: 400;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    overflow:hidden;
+    display: flex;
+}
+#logo{
+    width:50%;
+    border-radius: 0%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;    
+}
+img{
+    width: 30vw;
+    height: 30vw;
+    object-fit: scale-down;
+    float: left;
+}
+h3{
+    font-size: xx-large;
+    font-weight: 600;
+}
+p{
+    font-size: large;
+}
+#cont{
+    width: 60%;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#circle{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    max-height: 30vw;
+}
+#cont{
+    background-color: black;
+    color: chartreuse;
+    text-shadow:0px 0px 10px chartreuse;
+}
+#hacking #teams{
+    width: 15vw;
+    height: 15vw;
+}
+#nav{
+    float: left;
+    height: 5%;
+    width: 5%;
+    overflow: hidden;
+    border : none;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    cursor:default;
+}
+svg{
+    fill: chartreuse;
+}
+#marg{
+    width: 10%;
+    float: left;
+}
+#navbar{
+    position: fixed;
+    width: 100%;
+    height: 0%;
+    background-color: black;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+#X{
+    float: right;
+    overflow: hidden;
+}
+@keyframes po{
+    from{
+        height: 0%;
+    }
+    to{
+        height: 10%;
+    }
+}
+@keyframes oop{
+    from{
+        margin-top:5%;
+    }
+    to{
+        margin-top:0%;
+    }
+}
+@keyframes poo{
+    
+    from{
+        margin-top:0%;
+    }
+    to{
+        margin-top:5%;
+    }
+}
+@keyframes op{
+    from{
+        height:10%;
+    }
+    to{
+        height:0%;
+    }
+}
+#nav_but{
+    width: 49.5%;
+    height: 100%;
+    border:none;
+    color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.active{
+    text-decoration: black;
+    background-color: chartreuse;
+}
+p{
+    text-shadow: none;
+}
