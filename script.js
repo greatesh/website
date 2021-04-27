@@ -15,6 +15,6 @@ function navbar(){
         nav_open = true
     }
 }
-if( /Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     document.body.innerHTML = "<h1> mobiles not supported :/</h1>"
    }
